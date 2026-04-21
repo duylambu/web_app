@@ -6,8 +6,26 @@
     <title>Trang Web Đầu Tiên Của Tôi</title>
     <style>
         /* CSS để làm đẹp trang web */
+        /* 1. Khai báo font-face (đảm bảo đường dẫn file font là chính xác) */
+/*
+@font-face {
+  font-family: 'Averta Std Cy';
+  src: url('https://duylambu.github.io/web_app/font/AvertaStdCYRegular.otf') format('otf'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Averta Std Cy';
+  src: url('fonts/AvertaStdCy-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;   
+}
+*/
+/* 2. Sử dụng trong class hoặc phần tử */
+        
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Averta Std Cy   */
             text-align: center;
             background-color: #f0f2f5;
             margin-top: 50px;
@@ -35,10 +53,11 @@
 <body>
 
     <div class="container">
-        <h1>Chào mừng đến với GitHub Pages! 🚀</h1>
+        <h2>Chào mừng đến với GitHub Pages! 🚀</h2>
         <p>Đây là trang web đầu tiên của tôi được host trên GitHub.</p>
         <button onclick="loiChao()">Nhấn vào đây!</button>
         <p id="thong-bao"></p>
+         <p>CONG TY TNHH NGUYEN GIA HAI DUONG</p>
     </div>
 
     <script>
