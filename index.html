@@ -7,7 +7,15 @@
     <style>
         /* CSS để làm đẹp trang web */
         /* 1. Khai báo font-face (đảm bảo đường dẫn file font là chính xác) */
-/*
+@font-face {
+  font-family: 'Averta Std Cy';
+  src: url('https://duylambu.github.io/web_app/font/Averta-Regular.woff2') format('woff2'),
+       url('https://duylambu.github.io/web_app/font/Averta-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+        
+        /*
 @font-face {
   font-family: 'Averta Std Cy';
   src: url('https://duylambu.github.io/web_app/font/AvertaStdCYRegular.otf') format('otf'); 
@@ -25,7 +33,7 @@
 /* 2. Sử dụng trong class hoặc phần tử */
         
         body {
-            font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Averta Std Cy   */
+            font-family: 'Averta Std Cy', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Averta Std Cy   */
             text-align: center;
             background-color: #f0f2f5;
             margin-top: 50px;
