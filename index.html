@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Đầu Tiên Của Tôi</title>
+    <style>
+        /* CSS để làm đẹp trang web */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f2f5;
+            margin-top: 50px;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            display: inline-block;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #2ea44f;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #2c974b;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Chào mừng đến với GitHub Pages! 🚀</h1>
+        <p>Đây là trang web đầu tiên của tôi được host trên GitHub.</p>
+        <button onclick="loiChao()">Nhấn vào đây!</button>
+        <p id="thong-bao"></p>
+    </div>
+
+    <script>
+        // JavaScript để tạo tương tác
+        function loiChao() {
+            document.getElementById("thong-bao").innerHTML = "Chúc mừng! Bạn đã kích hoạt thành công trang web.";
+            document.getElementById("thong-bao").style.color = "blue";
+        }
+    </script>
+</body>
+</html>
