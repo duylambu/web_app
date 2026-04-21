@@ -6,6 +6,29 @@
     <title>Trang Web Đầu Tiên Của Tôi</title>
     <style>
         /* CSS để làm đẹp trang web */
+        /* 1. Khai báo font-face (đảm bảo đường dẫn file font là chính xác) */
+@font-face {
+  font-family: 'Averta Std Cy';
+  src: url('https://duylambu.github.io/web_app/font/AvertaStdCYRegular.otf') format('otf'),
+      /* url('fonts/AvertaStdCy-Regular.woff') format('woff');*/
+  font-weight: normal;
+  font-style: normal;
+}
+/*
+@font-face {
+  font-family: 'Averta Std Cy';
+  src: url('fonts/AvertaStdCy-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+    */
+}
+
+/* 2. Sử dụng trong class hoặc phần tử */
+body {
+  font-family: 'Averta Std Cy', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+        
         body {
             font-family: Arial, sans-serif;
             text-align: center;
